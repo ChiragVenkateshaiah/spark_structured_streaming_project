@@ -36,6 +36,7 @@ This project demonstrates real-time data engineering using Spark Structured Stre
 - Delta Lake
 - Python / PySpark
 
+## Project Structure
 spark_structured_streaming_project/
 - │
 - ├── 01_Streaming_Simulator.ipynb
