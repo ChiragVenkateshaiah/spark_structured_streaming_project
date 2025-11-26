@@ -36,27 +36,4 @@ This project demonstrates real-time data engineering using Spark Structured Stre
 - Delta Lake
 - Python / PySpark
 
-## Project Structure
-```
-spark_structured_streaming_project/
-├─ 01 Streaming Simulator Notebook/
-    ├─ Streaming Simulator Notebook 
-│  ├─ 02_bronze_load.ipynb
-│  ├─ 03_silver_cleanse.ipynb
-│  ├─ 03_silver_enrich.ipynb
-│  └─ 04_gold_daily_summary.ipynb
-├─ src/
-│  ├─ ingestion.py
-│  ├─ bronze_transform.py
-│  ├─ silver_cleanse_logic.py
-│  ├─ silver_enrich_logic.py
-│  └─ gold_aggregate_logic.py
-├─ lookup/
-│  └─ taxi_zone_lookup.csv
-├─ diagrams/
-│  └─ architecture.png
-├─ sample_data/
-│  └─ sample_trip_small.parquet
-├─ README.md
-└─ requirements.txt
-```
+
