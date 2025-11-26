@@ -36,16 +36,22 @@ This project demonstrates real-time data engineering using Spark Structured Stre
 - Delta Lake
 - Python / PySpark
 
-## Project Structure
+## 📁 Project Structure
+
+```
 spark_structured_streaming_project/
--   ├── 01_Streaming_Simulator.ipynb
--   ├── 02_Reading_Streams_With_Autoloader.ipynb
--   ├── 03_Microbatch_Size.ipynb
--   ├── 04_Schema_Inference_and_Evolution.ipynb
--   ├── 05_Time_Based_Aggregations_and_Watermarking.ipynb
--   ├── 06_Writing_Streams.ipynb
--   ├── 07_Trigger_Intervals.ipynb
--   ├── 08_Delta_Table_Streaming_Reads_and_Writes.ipynb
--   └── README.md
+│
+├── 01_Streaming_Simulator.ipynb
+├── 02_Reading_Streams_With_Autoloader.ipynb
+├── 03_Microbatch_Size.ipynb
+├── 04_Schema_Inference_and_Evolution.ipynb
+├── 05_Time_Based_Aggregations_and_Watermarking.ipynb
+├── 06_Writing_Streams.ipynb
+├── 07_Trigger_Intervals.ipynb
+├── 08_Delta_Table_Streaming_Reads_and_Writes.ipynb
+├── README.md
+│     # Project documentation
+```
+
 
 
