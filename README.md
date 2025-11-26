@@ -38,34 +38,16 @@ This project demonstrates real-time data engineering using Spark Structured Stre
 
 ## Project Structure
 
-  spark_structured_streaming_project/
-  │
-  ├── 01_Streaming_Simulator.ipynb
-  │   # Generates random weather data and simulates a streaming source.
-  │
-  ├── 02_Reading_Streams_With_Autoloader.ipynb
-  │   # Reads streaming data using Databricks Auto Loader.
-  │
-  ├── 03_Microbatch_Size.ipynb
-  │   # Demonstrates micro-batch configuration in Structured Streaming.
-  │
-  ├── 04_Schema_Inference_and_Evolution.ipynb
-  │   # Handles schema inference and evolution in streaming pipelines.
-  │
-  ├── 05_Time_Based_Aggregations_and_Watermarking.ipynb
-  │   # Performs window aggregations and applies watermarking.
-  │
-  ├── 06_Writing_Streams.ipynb
-  │   # Writes streaming data to Delta and other sinks.
-  │
-  ├── 07_Trigger_Intervals.ipynb
-  │   # Shows different trigger interval configurations for streaming queries.
-  │
-  ├── 08_Delta_Table_Streaming_Reads_and_Writes.ipynb
-  │   # Reads and writes Delta tables using Structured Streaming.
-  │
-  ├── README.md
-  │   # Project documentation.
-  │
-  └── (additional folders such as configs/, data/, or src/ can be added as the project expands)
+spark_structured_streaming_project/
+│
+├── 01_Streaming_Simulator.ipynb
+├── 02_Reading_Streams_With_Autoloader.ipynb
+├── 03_Microbatch_Size.ipynb
+├── 04_Schema_Inference_and_Evolution.ipynb
+├── 05_Time_Based_Aggregations_and_Watermarking.ipynb
+├── 06_Writing_Streams.ipynb
+├── 07_Trigger_Intervals.ipynb
+├── 08_Delta_Table_Streaming_Reads_and_Writes.ipynb
+└── README.md
+
 
