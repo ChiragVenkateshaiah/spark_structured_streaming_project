@@ -37,18 +37,35 @@ This project demonstrates real-time data engineering using Spark Structured Stre
 - Python / PySpark
 
 ## Project Structure
+
 spark_structured_streaming_project/
 │
-├── (root)/
-│   ├── README.md                   # Project documentation (this file)
-│   ├── (notebooks and/or streaming scripts)  # your stream-simulator & processing notebooks / scripts
+├── 01_Streaming_Simulator.ipynb
+│   # Generates random weather data and simulates a streaming source.
 │
-├── 01 Streaming Simulator Notebook # notebook simulating random weather data generation :contentReference[oaicite:2]{index=2}
-├── 02 Reading Streams with Auto Loader # notebook for reading streams using Auto Loader :contentReference[oaicite:3]{index=3}
-├── 03 Micro-batch Size             # notebook focusing on micro-batch config for streaming :contentReference[oaicite:4]{index=4}
-├── 04 Schema Inference and Evolution # notebook about handling schema changes in streaming data :contentReference[oaicite:5]{index=5}
-├── 05 Time Based Aggregations and Watermarking # notebook for time-window based aggregations & watermarking :contentReference[oaicite:6]{index=6}
-├── 06 Writing Streams              # notebook demonstrating writing streams out (e.g. to files / Delta) :contentReference[oaicite:7]{index=7}
-├── 07 Trigger Intervals            # notebook showing how to configure trigger intervals for streaming :contentReference[oaicite:8]{index=8}
-├── 08 Delta Table Streaming Reads and Writes # notebook covering streaming-read/write with Delta Lake sink/source :contentReference[oaicite:10]{index=10}
+├── 02_Reading_Streams_With_Autoloader.ipynb
+│   # Reads streaming data using Databricks Auto Loader.
+│
+├── 03_Microbatch_Size.ipynb
+│   # Demonstrates micro-batch configuration in Structured Streaming.
+│
+├── 04_Schema_Inference_and_Evolution.ipynb
+│   # Handles schema inference and evolution in streaming pipelines.
+│
+├── 05_Time_Based_Aggregations_and_Watermarking.ipynb
+│   # Performs window aggregations and applies watermarking.
+│
+├── 06_Writing_Streams.ipynb
+│   # Writes streaming data to Delta and other sinks.
+│
+├── 07_Trigger_Intervals.ipynb
+│   # Shows different trigger interval configurations for streaming queries.
+│
+├── 08_Delta_Table_Streaming_Reads_and_Writes.ipynb
+│   # Reads and writes Delta tables using Structured Streaming.
+│
+├── README.md
+│   # Project documentation.
+│
+└── (additional folders such as configs/, data/, or src/ can be added as the project expands)
 
