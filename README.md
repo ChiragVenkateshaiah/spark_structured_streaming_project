@@ -37,7 +37,3 @@ This project demonstrates real-time data engineering using Spark Structured Stre
 - Python / PySpark
 
 
-
-```
-
----
